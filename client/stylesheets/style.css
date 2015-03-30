@@ -158,3 +158,8 @@ body {
     margin-bottom: 5px;
     pointer-events: auto;
 }
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+}
