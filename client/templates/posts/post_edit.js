@@ -34,7 +34,6 @@ Template.postEdit.events({
             }
         });
     },
-
     'click .delete': function(e) {
         e.preventDefault();
 
