@@ -5,8 +5,8 @@
             <h3><a href="{{postUrl}}" target="_blank">{{title}}</a><span>{{domain}}</span></h3>
             <p>
                 {{pluralize votes "Vote"}},
-                submitted by {{author}},
                 {{#if clicks}}{{pluralize clicks "click"}},{{/if}}
+                submitted by {{author}},
                 <a href="{{pathFor 'postPage'}}">{{pluralize commentsCount "comment"}}</a>
                 {{#if ownPost}}<a href="{{pathFor 'postEdit'}}">Edit</a>{{/if}}
             </p>
