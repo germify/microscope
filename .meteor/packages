@@ -17,5 +17,5 @@ rss
 http
 bitly
 intercom
-percolatestudio:percolatestudio-migrations
 meteorhacks:kadira
+percolate:migrations
